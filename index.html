@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Coding Quiz 🎮</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Coding Quiz Game 🎯</h1>
+    <div id="quiz-box">
+      <h2 id="question">Click Start to Begin!</h2>
+      <div id="options"></div>
+      <p id="feedback"></p>
+    </div>
+
+    <div id="info">
+      <p>⏰ Time Left: <span id="time">30</span> sec</p>
+      <p>🏆 Score: <span id="score">0</span></p>
+    </div>
+
+    <button id="start-btn">Start Quiz</button>
+    <button id="reset-btn" style="display:none;">Reset Quiz</button>
+
+    <h3>🏅 Leaderboard</h3>
+    <ul id="leaderboard"></ul>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
