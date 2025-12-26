@@ -1,1 +1,1 @@
-## lINK : https://shivampande246.github.io/JavaScript/
+## link: https://shivampande246.github.io/JavaScript/
